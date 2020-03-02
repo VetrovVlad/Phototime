@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../phototime/assets/styles/style.css">
+    <link rel="stylesheet" href="../phototime/assets/fonts/fonts.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootstraptema.ru/snippets/slider/2016/jslider/jSlider.css" />
+    <script src="https://bootstraptema.ru/plugins/jquery/jquery-2.1.4.min.js"></script>
+    <script src="https://bootstraptema.ru/snippets/slider/2016/jslider/jSlider.min.js"></script>
+    <title>Phototime</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <nav class="nav">
+                <a href="#" class="nav__link">Home</a>
+                <a href="#" class="nav__link">Photoapp</a>
+                <img class="header__img" src="../phototime/assets/images/logo.png">
+                <a href="#" class="nav__link">Design</a>
+                <a href="#" class="nav__link">Download</a>
+            </nav>
+
+            <div class="header__content">
+                <h1 class="header__title">your life , a photo</h1>
+                <h2 class="header__text">print your life in a simple photo</h2>
+                <button class="header__btn">get started</button>
+            </div>
+
+            <div class="header__footer">
+                <div class="header-icon-container">
+                    <a href="#" class="icon"><i id="border-none" class="fab fa-twitter"></i></a>
+                </div>
+
+                <div class="header-icon-container">
+                    <a href="#" class="icon"><i id="border-none" class="fas fa-basketball-ball"></i></a>
+                </div>
+
+                <div class="header-icon-container">
+                    <a href="#" class="icon"><i id="border-none" class="fab fa-flickr"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="first__content">
+        <div class="container">
+            <div class="first__container">
+                <div class="first__content__information">
+                    <h1 class="first__content__title">Rappresent your life with a
+                        simple photo</h1>
+                    <p class="first__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.</p>
+                    <button class="first__content__button">Get started</button>
+                </div>
+
+                <div class="first-img-container">
+                    <img src="../phototime/assets/images/hand__phone.jpg" class="first__content__img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="second__content">
+
+
+        <div class="second__content__information">
+            <h1 class="second__design">
+                Design
+            </h1>
+            <p class="second__content__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore
+                et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat.
+            </p>
+            <button class="second__content__button">Learn More</button>
+            <div class="second-for-sliders">
+                <p class="second__pages">01/05</p>
+                <div class="second__content__skiper">
+                    <i class="arrow left"></i>
+                    <i class="arrow right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="second__img__container">
+            <img src="../phototime/assets/images/phone.png" class="second__img">
+        </div>
+
+
+    </div>
+
+    <div class="third-content">
+        <div class="container">
+            <div class="third-flex">
+                <div class="third-block-information" style="padding-top: 5%; padding-left: 5%;">
+
+                    <div class="third-information-container">
+                        <img src="../phototime/assets/images/third-logo.png" class="third-logo">
+                    </div>
+
+                    <div class="third-information-container">
+                        <h1 class="third-heading">Our community</h1>
+                    </div>
+
+                    <div class="third-information-container">
+                        <p class=third-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2" style="padding-bottom: 8%;">
+                
+                            <div class="jSlider">
+                                <div><img src="../phototime/assets/images/third-picture-one.png" />
+                                </div>
+                                <div><img src="../phototime/assets/images/third-picture-two.png" /></div>
+                                <div><img src="../phototime/assets/images/third-picture-three.jpg" /></div>
+                                <div><img src="../phototime/assets/images/third-picture-four.jpg" /></div>
+                                <div><img src="../phototime/assets/images/third-picture-five.jpg" /></div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="forth-content">
+        <div class="forth-information">
+            <h1 class="forth-heading">subscribe to us community</h1>
+            <button class="forth-button">subscribe</button>
+
+            <div class="popup" id="popup">
+                <form class="form-container">
+                    <h1>Subscribe</h1>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email">
+
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Name" name="text">
+
+                    <label for="name"><b>Surname</b></label>
+                    <input type="text" placeholder="Enter surname" name="text">
+                    
+                    <button type="submit" class="btn" onclick="return false">Send</button>
+                    <button class="btn cancel" onclick="return false">Close</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="fifth-content">
+        <div class="fifth-information">
+            <h1 class="fifth-heading">Download it</h1>
+            <p class="fifth-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat.</p>
+
+
+            <div class="fifth-button-container">
+
+                <button class="fifth-button1">
+                    <div class="apple-store-container">
+                        apple store
+                    </div>
+                    <div class="apple-container">
+                        <i id="border-none" id="fift-i" class="fab fa-apple"></i>
+                    </div>
+                </button>
+
+
+
+                <button class="fifth-button2">
+                    <div class="play-store-container">
+                        play store
+                    </div>
+
+                    <div class="android-container">
+                        <i id="border-none" id="fift-i" class="fab fa-android"></i>
+                    </div>
+
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="container-footer">
+                <div class="container-text">
+                    <div class="footer-flex">
+                        <a class="footer-inf" href="#">credits</a>
+                        <a class="footer-inf" href="#">privacy</a>
+                        <a class="footer-inf" href="#">our teams</a>
+                    </div>
+                    <p class="footer-copyright">Copyright by phototime - all right reserved</p>
+                </div>
+                <div class="container-img">
+                    <img src="../phototime/assets/images/footer-logo.png" alt="" class="footer-img">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/3cf9aa06e7.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../phototime/assets/js/main.js"></script>
+</body>
+
+</html>
